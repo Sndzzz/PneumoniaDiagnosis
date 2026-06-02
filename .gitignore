@@ -1,0 +1,18 @@
+# Python dosyaları ve geçici klasörler
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Sanal ortam klasörleri (eğer varsa)
+venv/
+env/
+.env
+
+# Büyük model dosyaları (100MB sınırını aşmamak için)
+models/*.pth
+
+# Streamlit ve IDE ayarları
+.streamlit/
+.vscode/
+.idea/
+.DS_Store
